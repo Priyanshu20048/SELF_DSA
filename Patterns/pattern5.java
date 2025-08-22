@@ -4,12 +4,8 @@
 // 4 4 4 4
 // 5 5 5 5 5
 
+
 import java.util.Scanner;
-
-
-
-
-
 
 public class pattern5 {
     public static void p4(int n){
