@@ -1,4 +1,9 @@
- import java.util.*;
+// 1             1
+// 1 2         2 1
+// 1 2 3     3 2 1
+// 1 2 3 4 4 3 2 1
+
+import java.util.*;
 public class pattern13 {
     public static void p13(int n ){
         int space = 2*(n-1);
@@ -7,7 +12,7 @@ public class pattern13 {
             System.out.print(j+" ");
         }
         for (int k =1; k<=space;k++){
-            System.out.print(" ");
+            System.out.print("  ");
         }
         for (int l = i ; l >=1;l--){
             System.out.print(l+" ");
